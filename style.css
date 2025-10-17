@@ -1,13 +1,13 @@
 /* General Body and Base Styles */
 :root {
-    --primary-color: #0xFFF8BBDO; /* Light pink */
+    --primary-color: #FFD1DC; /* Soft Pink */
     --accent-color: #A7D9B8; /* Mint Green */
-    --text-dark: #424242;
-    --text-light: #757575;
-    --background-light: #F8F9FA;
+    --text-dark: #D291BC; /* Softer pink for dark text, optional */
+    --text-light: #FFB7CE; /* Even lighter pink */
+    --background-light: #FFF1F6; /* Very light pink background */
     --white: #FFFFFF;
-    --shadow-light: rgba(0, 0, 0, 0.1);
-    --shadow-medium: rgba(0, 0, 0, 0.15);
+    --shadow-light: rgba(221, 150, 196, 0.1); /* Pinkish shadow */
+    --shadow-medium: rgba(221, 150, 196, 0.15); /* Pinkish shadow */
     --border-radius: 8px;
 }
 
