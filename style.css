@@ -1,7 +1,6 @@
 /* General Body and Base Styles */
 :root {
-    --primary-color: #B2EBF2; /* Light Cyan */
-    --secondary-color: #FFC7EA; /* Light Pink */
+    --primary-color: #0xFFF8BBDO; /* Light pink */
     --accent-color: #A7D9B8; /* Mint Green */
     --text-dark: #424242;
     --text-light: #757575;
