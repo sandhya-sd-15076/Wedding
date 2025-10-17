@@ -1,13 +1,14 @@
 /* General Body and Base Styles */
 :root {
-    --primary-color: #FFD1DC; /* Soft Pink */
+    --primary-color: #B2EBF2; /* Light Cyan */
+    --secondary-color: #FFC7EA; /* Light Pink */
     --accent-color: #A7D9B8; /* Mint Green */
-    --text-dark: #D291BC; /* Softer pink for dark text, optional */
-    --text-light: #FFB7CE; /* Even lighter pink */
-    --background-light: #FFD1DC; /* Very light pink background */
+    --text-dark: #424242;
+    --text-light: #757575;
+    --background-light: #F8F9FA;
     --white: #FFFFFF;
-    --shadow-light: rgba(221, 150, 196, 0.1); /* Pinkish shadow */
-    --shadow-medium: rgba(221, 150, 196, 0.15); /* Pinkish shadow */
+    --shadow-light: rgba(0, 0, 0, 0.1);
+    --shadow-medium: rgba(0, 0, 0, 0.15);
     --border-radius: 8px;
 }
 
@@ -101,8 +102,8 @@ a:hover {
     align-items: center;
     color: var(--white);
     text-align: center;
-    background: url('https://via.placeholder.com/1920x1080/FFD1DC/FFFFFF?text=Wedding+Hero+Image') no-repeat center center/cover;
-    /* fallback background-color: var(--primary-color); */
+    background-color: #FFD1DC; /* Soft Pink */
+    /* OR use the pink image as shown above */
     z-index: 1;
 }
 
@@ -113,7 +114,7 @@ a:hover {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(255, 209, 220, 0.3); /* Soft pink overlay */
+    background: rgba(0, 0, 0, 0.4); /* Dark overlay for text readability */
     z-index: -1;
 }
 
@@ -344,7 +345,7 @@ a:hover {
 
 /* Footer */
 footer {
-    background-color: var(--primary-color);
+    background-color: #333;
     color: var(--white);
     text-align: center;
     padding: 30px 0;
