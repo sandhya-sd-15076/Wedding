@@ -102,7 +102,7 @@ a:hover {
     align-items: center;
     color: var(--white);
     text-align: center;
-    background-color: #FFD1DC; /* Soft Pink */
+    background: url('https://cdn0.weddingwire.in/article-gallery-o/00000/original/1280/jpg/articulos-india/2019/non-troncales/indian-wedding-background/anoop-wk-royaltheme-indian-wedding-background.jpeg') no-repeat center center/cover;
     /* OR use the pink image as shown above */
     z-index: 1;
 }
